@@ -39,6 +39,21 @@
           "default": true,
           "description": "Sort Tailwind classes on save"
         },
+        "tailwindSorter.multiline": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": false,
+              "description": "Break categories into separate lines"
+            },
+            "threshold": {
+              "type": "number",
+              "default": 0,
+              "description": "Class length minimum threshold (use 0 to always break)"
+            }
+            
+          },
         "tailwindSorter.customPrefixes": {
           "type": "array",
           "items": {

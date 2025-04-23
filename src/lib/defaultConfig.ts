@@ -548,3 +548,7 @@ export const defaultPseudoSortOrder =
 
 export const defaultCustomPrefixes = ["twMerge(", "clsx(", "cva("];
 export const defaultSortOnSave = true;
+export const defaultMultiline = {
+  enabled: false,
+  threshold: 0,
+};
